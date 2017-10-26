@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "JavaScript starter template project.",
   "scripts": {
+    "start": "ts-node scripts/expressServer.ts",
+    "share": "lt --port 65000"
   },
   "author": "Sergii Trotsenko",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "~4.1.2",
     "chalk": "~2.3.0",
@@ -33,6 +34,8 @@
     "open": "~0.0.5",
     "rimraf": "~2.6.2",
     "style-loader": "~0.19.0",
+    "ts-node": "~3.3.0",
+    "typescript": "~2.5.3",
     "webpack": "~3.8.1",
     "webpack-dev-middleware": "~1.12.0",
     "webpack-hot-middleware": "~2.20.0",

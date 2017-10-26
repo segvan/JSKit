@@ -1,10 +1,12 @@
-var express = require('express');
-var path = require('path');
-var open = require('open');
+"use strict";
 
-var port = 3000;
+import * as express from 'express';
+import * as path from 'path';
+import * as open from 'open';
 
-var server = express();
+const port = 60000;
+
+let server = express();
 
 server.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, '../src/index.html'));
